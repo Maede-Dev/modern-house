@@ -1,0 +1,22 @@
+.device_container {
+  width: 100%;
+  padding: 10px 20px;
+
+  .header {
+    display: flex;
+    .titleBox {
+      .title {
+        font-size: 25px;
+        margin-bottom: 2px;
+      }
+      .subTitle {
+        font-size: 15px;
+        font-weight: 600;
+        color: #717777;
+      }
+    }
+    .icon {
+      margin: 0 30px 0 auto;
+    }
+  }
+}
