@@ -1,12 +1,15 @@
 .HomePartBox_container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 50px;
+  .HomePartBoxItem {
+    width: 20%;
+  }
   .img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     background-color: rgb(39, 102, 97);
     padding: 5px;
     border-radius: 25px;
